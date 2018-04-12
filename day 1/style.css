@@ -1,0 +1,31 @@
+body {
+  background-color: coral;
+  font-family: 'Great Vibes', cursive;
+}
+
+ form {
+ 	text-align: center;
+ 	font-family: 'Black Han Sans', sans-serif;
+ }
+
+ h1 { 
+    text-align: center;
+    font-size: 4em;
+ }
+
+ input {
+ 	height: 1.5rem;
+ 	width: 10rem;
+ 	border-radius: 6px;
+ 	font-family: 'Great Vibes', cursive;
+ 	font-size: 1.4em;
+ }
+
+#button {
+	width: 5rem;
+	height: 2rem;
+}
+.main{
+  margin-top: 12rem;   
+  
+} 
