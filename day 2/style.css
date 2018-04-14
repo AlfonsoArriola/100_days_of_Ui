@@ -1,0 +1,86 @@
+body{
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.bill {
+  margin: 7rem;
+  padding: 2rem;
+  background-color:#347fc1;
+  width: 25rem;
+  
+  border-radius: 5px;
+  box-shadow: 5px 5px #051c30;
+  z-index: 2;
+}
+
+#card_number {
+  height: 2rem;
+  width: 22rem;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f7e2c0;
+  
+}
+
+#date{
+  height: 2rem;
+  width: 11rem;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f7e2c0;
+}
+
+#cvv{
+  height: 2rem;
+  width: 5.5rem;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f7e2c0;
+}
+
+#zipcode {
+  height: 2rem;
+  width: 7rem;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f7e2c0;
+}
+
+#button{
+   height: 2rem;
+   width: 5rem;
+   border-radius: 8px;
+   text-align: center;
+   background-color: #f7e2c0;
+}
+
+
+#item{
+  height: 10rem;
+}
+
+
+
+
+
+
+
